@@ -1,0 +1,47 @@
+/* h1{
+  margin-top: -25%;
+  position: fixed;
+  position: absolute;
+  width: 711px;
+  height: 300px;
+  left: calc(50% - 711px/2 + 0.5px);
+  top: calc(50% - 226px/2 - 332px);
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 178px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 13px;
+  text-transform: capitalize;
+  color: rgba(135, 162, 158, 0.9);
+} */
+
+/* .inputTitle{
+    margin-top: 8%;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+
+.inputTitle input{
+    position: center;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.inputNote{
+    margin-top: 1%;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+
+.inputNote input{
+    position: center;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 20px;
+} */

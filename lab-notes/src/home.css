@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Happy+Monkey&display=swap');
+
+.app{  /*Fondo de la bienvenida*/
+  position: relative;
+  width: 768px;
+  height: 1024px;
+  background: #E85172;
+  mix-blend-mode: normal;
+  position: fixed;
+  text-align: center;
+}
+
+.btnsWelcome{   /*Linea que separa los botones*/
+  position: absolute;  
+  width: 533px;
+  height: 0px;
+  left: 117px;
+  top: 584.93px;
+  border: 1px solid #000000;
+  transform: rotate(-0.21deg);
+}
+
+.app h1{   /*Título de la app*/
+  margin-top: -5%;
+  position: fixed;
+  position: absolute;
+  width: 711px;
+  height: 226px;
+  left: calc(50% - 711px/2 + 0.5px);
+  top: calc(50% - 226px/2 - 332px);
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 178px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 13px;
+  text-transform: capitalize;
+  color: rgba(135, 162, 158, 0.9);
+}
+
+.btnLogIn{
+  position: absolute;  /*Estilos del input*/
+  /* width: 368px;
+  height: 90px; */
+  left: 200px;
+  margin-top: -20px;
+  background: #F4D3D2;
+  border-radius: 20px;
+
+  position: absolute;  /*Estilos al texto*/
+  width: 327px;
+  height: 64px;
+  left: calc(50% - 327px/2 + 0.5px);
+  top: calc(50% - 64px/2 - 164px);
+  font-family: 'Happy Monkey', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  /* line-height: 60px; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 13px;
+  text-transform: capitalize;
+  color: #9E1D3F;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnSignUp{
+  position: absolute;  /*Input Registro*/
+  width: 368px;
+  height: 90px;
+  left: 200px;
+  margin-top: -40px;
+  background: #F4D3D2;
+  border-radius: 20px;
+  /*Texto del input*/
+  position: absolute;  
+  width: 265px;
+  height: 58px;
+  left: calc(50% - 265px/2 + 0.5px);
+  top: calc(50% - 58px/2 - 25px);
+  font-family: 'Happy Monkey', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 13px;
+  text-transform: capitalize;
+  color: #9E1D3F;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+
+.otherIncome{ /*Parráfo de ingreso*/
+  position: absolute;
+  width: 347px;
+  height: 58px;
+  left: calc(50% - 347px/2 + 0.5px);
+  top: calc(50% - 58px/2 + 156px);
+  font-family: 'Happy Monkey', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-indent: 13px;
+  text-transform: capitalize;
+  color: rgba(244, 211, 210, 0.88);
+  mix-blend-mode: normal;
+}
