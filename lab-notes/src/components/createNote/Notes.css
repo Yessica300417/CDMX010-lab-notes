@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.inputTitle{
+    position: absolute;
+    width: 768px;
+    height: 154px;
+    left: 0px;
+    top: 0px;
+    background: rgba(228, 91, 41, 0.9);
+}
+
+.inputTitle input{
+    position: absolute;
+    /* outline: none; */
+    border: 0;
+    background: rgb(228, 91, 41, 0.11);
+    width: 430px;
+    height: 70px;
+    left: 95px;
+    top: 42px;
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-indent: 13px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.inputNote{
+    /* position: relative; */
+    width: 768px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+.inputNote textarea{
+    position: absolute;
+    border: 0;
+    width: 480px;
+    height: 88px;
+    left: 54px;
+    top: 232px;
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-indent: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.inputDate input{
+    position: absolute;
+    border: 0;
+    width: 315px;
+    height: 77px;
+    left: 435px;
+    top: 925px;
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-indent: 13px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btnCreate{
+    position: absolute;
+    width: 186px;
+    height: 74px;
+    left: 567px;
+    top: 41px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+.createNotes{
+    position: fixed;
+    border: 0;
+    background: rgba(0, 0, 0, 0.11);
+    width: 160px;
+    height: 50px;
+    left: 590px;
+    top: 54px;
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-indent: 13px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.iconSaveNotes{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    margin-top: -127%;
+    margin-left: 5px;
+    font-size: 19rem;
+}

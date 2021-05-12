@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Gloria + Hallelujah & display = swap');
+
+.inputNotes{   /*cuadro de las notas*/
+    margin-top: 200px;
+    margin-left: 45px;
+    
+    width: 611px;
+    height: auto;
+    left: 69px;
+    top: 316px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.textTitle{     /*titulo de las notas*/
+    /* width: 232px;
+    height: 31px; */
+    /* left: 70px;
+    top: 243px; */
+    font-family: 'Gloria Hallelujah', cursiva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 13px;
+    color: #000000;
+    background-color: rgba(228, 91, 41, 0.98);
+    margin-top: 0px;
+}
+
+.printNote{   /*contenido de la nota*/
+    top: 323px;
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    /* line-height: 48px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 13px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.dateNotes{
+    /* position: absolute; */
+    width: 163px;
+    height: 25px;
+    left: 95px;
+    top: 670px;
+    font-family: Happy Monkey;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 13px;
+    color: rgba(0, 0, 0, 0.9);     
+}

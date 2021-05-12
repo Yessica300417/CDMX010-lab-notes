@@ -1,5 +1,6 @@
-//Añadir o crear notas
-import React, {Fragment, useState, useEffect} from 'react';
+// Añadir o crear notas
+import React, {Fragment, useState} from 'react';
+import './Notes.css';
 
 const CreateNotes = (props) => {
 
@@ -20,13 +21,12 @@ const CreateNotes = (props) => {
 
     const saveData = (e) => {
         e.preventDefault ();
-        props.addOrEditNotes(note);
+        props.handleAddNote(note);
         setNote({...stateNotes})
     }
 
     return(
         <Fragment>
-            <h1>Notes Reminder</h1>
                 <form className="formCrud" onSubmit={saveData}>
                     <div className="inputTitle">
                         <input
@@ -55,11 +55,10 @@ const CreateNotes = (props) => {
                          value={note.fecha}>
                         </input>
                     </div>
-                    <div>
-                        <button type="submit">Listo</button>
+                    <div className="btnCreate">
+                        <button className="createNotes" type="submit">Listo</button> 
                     </div>
                 </form>
-            {/* <h3>{note.titulo} - {note.nota} - {note.fecha}</h3> */}
         </Fragment>
 
     );

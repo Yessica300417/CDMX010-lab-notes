@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Gloria + Hallelujah & display = swap');
+
+.titleNotes{   /*barra del menu desplegable*/
+    position: fixed;
+    width: 768px;
+    height: 165px;
+    left: 0px;
+    top: -1px;
+    background: rgba(228, 91, 41, 0.98);
+}
+
+h1{            /*titulo del home (menu)*/
+    width: 567px;
+    height: 84px;
+    left: 128px;
+    top: 40px;
+    font-family: 'Gloria Hallelujah', cursiva;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 178px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-indent: 13px;
+    color: rgba(0, 0, 0, 0.9);
+    position: center;
+}
+
+.read{
+    display: flex;
+    flex-direction: column;
+}
+
+.create{
+    font-size: 5rem;
+    background-color: coral;
+    border: solid #000;
+    position:fixed;
+    margin-top: 40%;
+    margin-left: 5px;
+}
